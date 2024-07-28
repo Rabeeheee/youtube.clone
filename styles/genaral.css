@@ -4,7 +4,6 @@ p {
 }
 
 body {
-    /* This style below will be inherited */
     font-family: Roboto, Arial;
     margin: 0;
     padding-top: 80px;
@@ -246,25 +245,6 @@ body {
     column-gap: 12px;
     row-gap: 30px;
   }
-  
-  @media (max-width: 750px) {
-    .video-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media (min-width: 751px) and (max-width: 999px) {
-    .video-grid {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-  
-  @media (min-width: 1000px) {
-    .video-grid {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
-  
   .video-time {
     font-size: 12px;
     font-weight: 500;
